@@ -58,9 +58,19 @@ font-size:160px;
 }
 @media screen and (max-width: 412px ){
 h1{
-font-size:80px;
+font-size:70px;
 }
 }
+@media screen and (max-width: 426px ){
+	h1{
+	font-size:80px;
+	}
+	}
+	@media screen and (max-width: 516px ){
+		h1{
+		font-size:80px;
+		}
+		}
 
 h2{
 	color: #FBCA1F;
