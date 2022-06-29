@@ -45,17 +45,12 @@ text-align: center;
 h1{
 	font-family: 'Gentium Plus';
 	font-weight: 700;
-	font-size:200px;
+	font-size:150px;
 	color: #FBCA1F;
 	
 }
 
 
-@media screen and (max-width: 700px ){
-h1{
-font-size:160px;
-}
-}
 @media screen and (max-width: 412px ){
 h1{
 font-size:70px;
