@@ -21,7 +21,7 @@ header{
 }
 
 body{
-	background: url('../images/fondo.jpg') center center fixed;
+	background: url('../images/fondo.jpg')  fixed;
 
 	background-size: cover ;
 	background-attachment: fixed;
