@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:wght@400;700&display=swap');
+
+
+nav ul li{
+	display: inline-block;
+	margin: 15px;
+}
+nav ul{
+	float: right;
+}
+
+nav ul a{
+	text-decoration:none;
+	padding: 5px;
+	
+}
+
+header{
+	height: 65px;
+	background: ;
+}
+
+body{
+	background: url('../images/fondo.jpg') center center fixed;
+
+	background-size: cover ;
+	background-attachment: fixed;
+
+	width: 100%;
+	height: 100%;
+	font-family:'Gentium Plus' ;
+}
+
+
+.centrado{
+text-align: center;
+
+}
+.espacios{
+	padding-bottom: 100px;
+	padding-top:36px;
+
+}
+
+h1{
+	font-family: 'Gentium Plus';
+	font-weight: 700;
+	font-size:200px;
+	color: #FBCA1F;
+	
+}
+
+
+@media screen and (max-width: 700px ){
+h1{
+font-size:160px;
+}
+}
+@media screen and (max-width: 400px ){
+h1{
+font-size:70px;
+}
+}
+
+h2{
+	color: #FBCA1F;
+	font-weight: 700;
+}
+h3{
+	color: white;
+}
+.splash p{color: white;
+	background: rgba(32,30,30,0.5);
+	font-size: 20PX;
+	
+}
+.btns{
+ background:#FBCA1F;
+ font-family: 'Gentium Plus';
+ padding: 0.6em 1.3em;
+ font-weight: 700;
+ font-size: 18px;
+ border: 3px solid black;
+ border-radius: 0.4em;
+ box-shadow: 0.1em 0.1em;
+
+}
+
+.btns:hover {
+ transform: translate(-0.05em, -0.05em);
+ box-shadow: 0.15em 0.15em;
+
+}
+
+.btns:active {
+ transform: translate(0.05em, 0.05em);
+ box-shadow: 0.05em 0.05em;
+
+}
+
+
+
+
+
+.card{
+	background: rgba(32,30,30,0.5);
+	color: white;
+	text-align: center;
+	Border: solid 2px white;
+}
+
+
+#carouselExampleIndicators{
+	width: 83%;
+	
+	margin:0 auto ;
+	padding: 0 auto;
+}
