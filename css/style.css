@@ -21,8 +21,8 @@ header{
 }
 
 body{
-	background: url('../images/fondo.jpg')center fixed;
-
+	background: url('../images/fondo.jpg') no-repeat  center center fixed;
+    background-image: url('/images/fondo.jpg');
 	background-size: cover ;
 	background-attachment: fixed;
 
@@ -111,10 +111,18 @@ h3{
 	background: rgba(32,30,30,0.5);
 	color: white;
 	text-align: center;
-	Border: solid 2px white;
+	margin:auto;
+	
 }
-
-
+.card p{
+	color: aliceblue;
+}
+.card h5{
+	color: aliceblue;
+}
+h6{
+	color: aliceblue;
+}
 #carouselExampleIndicators{
 	width: 83%;
 	
